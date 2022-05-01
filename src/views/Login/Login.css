@@ -1,0 +1,65 @@
+.login-ss{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color:#fff;
+  background-image: linear-gradient(to bottom right, #4C4C4C, white);
+}
+
+.login-ss #propiedades-ss{
+  background-color: #6c1d45;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 1) 0px 0px 15px;
+}
+
+#regresar{
+  position: absolute;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media (min-width: 600px) {
+  .ss-login-center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .ss-login-fix{
+   display: flex;
+   align-items: center;
+   width: 90%;
+ } 
+}
+
+
+
+
+#ss-login-register {
+  color: #afafaf;
+}
+
+#ss-login-register:hover {
+  color: white;
+}
+
+.ss-login-input-text {
+  border-radius: 5px;
+  border: 1px solid #AEB4BA;
+  padding: 0.375rem 0.75rem;
+  margin: 5px;
+}
+
+.login-ss small {
+  color: #EE9966;
+  font-weight: bold;
+}
+
+.ss-login-image {
+  height: 170px;
+  border-radius: 10px;
+  margin: 10px;
+}
