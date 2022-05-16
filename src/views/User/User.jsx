@@ -34,7 +34,9 @@ export default function User (props) {
   );
   else return(
     <div>
-      
+      <section>
+        <button className="btn btn-success">Cargar archivo</button>
+      </section>
     </div>
   );
 

@@ -3,6 +3,7 @@ import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons'
 
+import logo from '../../images/logo.jpg'
 import AXIOS from '../http-axios'
 
 import './Session.css'
@@ -62,7 +63,10 @@ export default function Session(props) {
   return(
     <> 
       <div className='ss-userHeader-header'>
-        <h2>SSENCB_provname</h2> 
+        <div>
+          <img src={logo} alt="" width="100px"/>
+        </div>
+        <h2>SSENCB_provname</h2>
         <div className='ss-userHeader-buttonsContainer'>
           <button className="ss-user-configurationButton">
             Configuracion &nbsp;
