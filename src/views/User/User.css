@@ -1,0 +1,29 @@
+.encb-global-container {
+  
+}
+
+@media (min-width: 996px) {
+  .encb-global-container {
+    display: flex;
+  }
+  .encb-generated-files-container {
+    width: 500px;
+  }
+
+  .encb-container {
+    width: 100%;
+  }
+}
+
+.encb-generated-files-container {
+  margin: 1em;
+  padding: 1em;
+  background-color: white;
+}
+
+.encb-container {
+  /*box-shadow: 0 0 6px #0009;*/
+  margin: 1em;
+  padding: 1em;
+  background-color: white;
+}

@@ -6,6 +6,8 @@ import AXIOS from '../../services/http-axios'
 import { faCirclePlus, faArrowRightToBracket } from '@fortawesome/free-solid-svg-icons'
 import {useNavigate} from 'react-router-dom';
 
+import './User.css'
+
 export default function User (props) {
 
   const navigation = useNavigate();
@@ -33,9 +35,12 @@ export default function User (props) {
     </div>
   );
   else return(
-    <div>
-      <section>
+    <div className="encb-global-container">
+      <section className="encb-container">
         <button className="btn btn-success">Cargar archivo</button>
+      </section>
+      <section className="encb-generated-files-container">
+        Aqui es un contenedor
       </section>
     </div>
   );
