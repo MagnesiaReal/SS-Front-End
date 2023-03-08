@@ -32,7 +32,8 @@ function App() {
         <Route exact path='*' element={<Navigate to='/login'/>}/>
         
       </Routes>
-    </Router> );
+    </Router>
+  );
 
 }
 

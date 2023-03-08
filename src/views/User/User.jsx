@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react';
+import { FileUploader } from 'react-drag-drop-files';
 
 import AXIOS from '../../services/http-axios'
 //Mock temporal import
@@ -38,6 +39,7 @@ export default function User (props) {
     <div className="encb-global-container">
       <section className="encb-container">
         <button className="btn btn-success">Cargar archivo</button>
+
       </section>
       <section className="encb-generated-files-container">
         Aqui es un contenedor
